@@ -1,6 +1,4 @@
-# Programming_Report1
-# 1770093
-# 임희주
+# Dijkstra_Algorithm
 
 class Graph():    
     def __init__(self, node):
