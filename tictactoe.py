@@ -1,4 +1,3 @@
-#임희주 1770093
 #tic tac toe 게임
 import time
 
@@ -64,7 +63,7 @@ game=False
 
 #게임 준비
 
-print("Tic-Tac-Toe 게임 시작 (만든사람: 임희주)")
+print("Tic-Tac-Toe 게임 시작 ")
 print("선수1 [X] --- 선수2 [0]\n")
 print()
 print()
