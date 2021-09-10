@@ -1,7 +1,3 @@
-# 자료구조
-# 사용자에게 받은 infix를 profix로 변환시키면서 계산을 수행한다.
-
-# Stack define
 class Stack:
 	def __init__(self):
 		self.items = []
@@ -87,13 +83,13 @@ for i in range(s.size()):
 
 
 if opStk.size()!=0:
-	 for i in range(opStk.size()):
-		a = valStk.pop()
-		operator = opStk.pop()
-		b = valStk.pop()
-		c = cal(a,b,operator)
-		valStk.push(c)
+  for i in range(opStk.size()):
+    a = valStk.pop()
+    operator = opStk.pop()
+    b = valStk.pop()
+    c = cal(a,b,operator)
+    valStk.push(c)
 
 if valStk.size()!=0:
-	answer = valStk.pop()
-	print('computer's answer = : ' , answer)
+  answer = valStk.pop()
+  print('computers answer = : ' , answer)
